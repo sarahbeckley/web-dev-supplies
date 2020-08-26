@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Find all of your web development/computer supplies here! We have hundreds of computers and laptops to fit anyones preference. "
+    />
+    <meta
+      name="keywords"
+      content="'web developement supplies, computers, computer desks, laptops, monitors, desk chairs, computer supplies, laptop supplies'"
+    />
+    <script
+      src="https://kit.fontawesome.com/a8551cf0ec.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Computers</title>
+  </head>
+  <body>
+    <nav id="main-nav">
+      <div class="logo">
+        <a href="index.html"><h4>techWorld</h4></a>
+      </div>
+      <div id="search">
+        <i class="fas fa-search"></i>
+        <input type="text" class="search" />
+      </div>
+      <div class="nav-list">
+        <ul class="list">
+          <li class="list-item" id="home">
+            <a href="index.html">Home</a>
+          </li>
+          <li class="list-item" id="laptops">
+            <a href="computer.html">Computers</a>
+          </li>
+          <li class="list-item" id="desks"><a href="desks.html">Desks</a></li>
+          <li class="list-item" id="chairs">
+            <a href="chair.html">Chairs</a>
+          </li>
+          <li class="list-item" id="cart">
+            <a href="cart.html"><i class="fas fa-shopping-cart"></i></a>
+          </li>
+          <li class="list-item current" id="contact">
+            <a href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div id="flex">
+      <form action="action.php" id="contact-form">
+        <div class="form">
+          <input
+            type="text"
+            class="full-name outline"
+            placeholder="Full Name"
+          />
+          <input type="text" class="email outline" placeholder="Email" />
+          <input
+            type="text"
+            class="phone-number outline"
+            placeholder="Phone Number"
+          />
+          <textarea
+            name="#"
+            class="outline"
+            id="textArea"
+            placeholder="Comment"
+          ></textarea>
+          <button id="contact-btn">Contact</button>
+        </div>
+      </form>
+      <sidebar id="sidebar">
+        <div class="sidebar-img">
+          <img src="img/sideimg3.png" alt="" />
+        </div>
+      </sidebar>
+    </div>
+    <footer id="main-footer">
+      <div class="footer">
+        <p>Copyright &copy; 2020, Lorem ipsum dolor</p>
+      </div>
+    </footer>
+    <script src="app.js"></script>
+  </body>
+</html>
